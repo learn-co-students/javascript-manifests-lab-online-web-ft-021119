@@ -10,7 +10,11 @@
 // Read Sprockets README (https://github.com/rails/sprockets#sprockets-directives) for details
 // about supported directives.
 //
-//= require jquery
-//= require jquery_ujs
-//= require turbolinks
-//= require wrong_place_wrong_time
+// = require jquery
+// = require jquery_ujs
+// = require turbolinks
+// = require alert_maker
+// = require main
+
+
+// Failure/Error: expect(File.read("app/assets/javascripts/admin.js")).not_to include("//= require main")
